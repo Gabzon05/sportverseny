@@ -1,0 +1,3 @@
+versenyszamok nincs versenyId ----> nincs összekotve a versenyek a versenyszamokkal
+
+kell egy users tablat csinalni amiben meg kell hatarozni hogy egy tanar (vagy felhasználó) csak azt az egy adott versenyszamot tudja szerkeszteni módosítani. 
