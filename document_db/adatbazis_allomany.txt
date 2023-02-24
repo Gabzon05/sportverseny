@@ -1,0 +1,51 @@
+csapatok
+id;csapatnev;intezmeny
+1;Ewengers;Szolnoki Műszaki Szakképzési Centrum Rózsa Imre Középiskolája és Kollégiuma
+2;MRK fiúk;Mezőtúri Református Kollégium, Gimnázium, Szakközépiskola, Általános Iskola és Óvoda
+3;Kinizsi fiúk;Kinizsi Pál Gimnázium és Szakközépiskola
+4;Csavarkulcs;Szolnoki Műszaki Szakképzési Centrum Jendrassik György Gépipari Szakközépiskolája
+5;Magára bízom;Hajnóczy József Gimnázium, Humán Szakközépiskola és Kollégium
+6;Fahéj;Szolnoki Műszaki Szakképzési Centrum Petőfi Sándor Építészeti és Faipari Szakképző Iskolája
+7;Másnaposok;Szolnoki Műszaki Szakképzési Centrum Baross Gábor Gépipari, Közlekedési Szakképző Iskolája
+8;Konok-kunok;Karcagi Szakképzési Centrum Nagy László Gimnázium
+
+
+versenyszamok
+id;versenyszam;sulyozas;tobbajobb;tipus;userId
+1;Lövészet;0.7;1;találat;1
+2;Lövészetidő;0.3;0;sec;2
+3;Akadálypálya;1.5;0;perc:mp3;
+4;Gránátdobás;0.7;1;találat;4
+5;Gránátdobás;0.3;0;perc:mp;5
+6;Fegyverszerelés;1;0;mp;6
+7;Elsősegély;1;1;pontszám;7
+8;Fegyveres váltó;1.5;0;perc:mp;8
+9;Tereptan;1;1;pont;9
+10;Katonai alapismeretek;1.5;1;pont;10
+11;Történelmi ismeretek;1;1;pont;11
+
+versenyek
+id;versenynev;versenydatumtol;versenydatumig;intezmeny
+
+
+
+
+csapatverseny
+csapatid;versenyszamid;eredmenyszam;eredmenyido
+
+
+
+
+users
+id;elsonev;utolsonev;gender;username;email;password;number
+1;Marton;Elek;Férfi;elekMarton;elekMarton@gmail.com;marton_elek;11
+2;Fütty;Mihály;Férfi;mihalyFutty;mihalyFutty@gmail.com;futty_mihaly;22
+3;Bakó;Judit;Nő;juditBako;juditBako@gmail.com;bako_judit;33
+4;Szabó;Tamás;Férfi;tamasSzabo;tamasSzabo@gmail.com;szabo_tamas;44
+5;Korom;Dániel;Férfi;danielKorom;danielKorom@gmail.com;korom_daniel;55
+6;Katona;Mária;Nő;mariaKatona;mariaKatona@gmail.com;katona_maria;66
+7;Oros;Ágnes;Nő;agnesOros;agnesOros@gmail.com;oros_agnes;77
+8;Cserepes;Virág;viragCserepes;viragCserepes@gmail.com;cserepes_virag;88
+9;Piros;Alma;Nő;almaPiros;almaPiros@gmail.com;piros_alma;99
+10;Hamu;János;Férfi;janosHamu;janosHamu@gmail.com;hamu_janos;101
+11;Róka;Lajos;Férfi;lajosRoka;lajosRoka@gmail.com;roka_lajos;111
