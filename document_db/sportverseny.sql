@@ -34,11 +34,11 @@ INSERT competitionnumbers
   (id,raceNumber,weighting,type,userId)
   VALUES
   (1,'Lövészet',0.7,'találat',1),
-  (2,'Akadálypálya',1.5,'perc:mp'),
-  (3),
-  (4),
-  (5),
-  (6);
+  (2,'Akadálypálya',1.5,'perc:mp',2),
+  (3,'Gránátdobás',0.7,'találat',3),
+  (4,'Fegyverszerelés',1,'mp',4),
+  (5,'Elsõsegély',1,'pont',5),
+  (6,'Katonai alapismeretek',1.5,'pont',6);
 
 
 
