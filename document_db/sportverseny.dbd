@@ -59,7 +59,7 @@
             </Location>
             <Size>
               <Width>194 px</Width>
-              <Height>144 px</Height>
+              <Height>127 px</Height>
             </Size>
             <DbOid>
               <Path>sportverseny.competitionnumbers</Path>
@@ -120,7 +120,7 @@
               <Port>
                 <Location>
                   <X>188 px</X>
-                  <Y>33 px</Y>
+                  <Y>29.1041666666667 px</Y>
                 </Location>
                 <Anchors>None</Anchors>
                 <Align>Right</Align>
@@ -137,7 +137,7 @@
               </PointD>
               <PointD>
                 <X>20 px</X>
-                <Y>143 px</Y>
+                <Y>139.104166666667 px</Y>
               </PointD>
             </BendPoints>
             <IsManuallyRouted>false</IsManuallyRouted>
@@ -157,7 +157,7 @@
               <Port xsi:type="LinkPort">
                 <Location>
                   <X>243 px</X>
-                  <Y>-79 px</Y>
+                  <Y>-75.1041717529297 px</Y>
                 </Location>
                 <Anchors>None</Anchors>
                 <Align>Left</Align>
@@ -307,6 +307,18 @@
             <PortAnchors>
               <Port>
                 <Location>
+                  <X>-2.59887245521838 px</X>
+                  <Y>59.3785292348326 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>17</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
                   <X>200 px</X>
                   <Y>36 px</Y>
                 </Location>
@@ -317,23 +329,11 @@
                   <PortType>FixedAnchor</PortType>
                 </CustomProperties>
               </Port>
-              <Port>
-                <Location>
-                  <X>0 px</X>
-                  <Y>82.5 px</Y>
-                </Location>
-                <Anchors>Top Bottom</Anchors>
-                <Align>Left</Align>
-                <CustomProperties>
-                  <OID>17</OID>
-                  <PortType>FloatAnchor</PortType>
-                </CustomProperties>
-              </Port>
             </PortAnchors>
             <BendPoints>
               <PointD>
                 <X>-330 px</X>
-                <Y>-147.5 px</Y>
+                <Y>-170.621470765167 px</Y>
               </PointD>
               <PointD>
                 <X>-330 px</X>
@@ -357,7 +357,7 @@
               <Port xsi:type="LinkPort">
                 <Location>
                   <X>110 px</X>
-                  <Y>-51.75 px</Y>
+                  <Y>-63.3107331553041 px</Y>
                 </Location>
                 <Anchors>None</Anchors>
                 <Align>Left</Align>
@@ -410,7 +410,7 @@
               <Port>
                 <Location>
                   <X>200 px</X>
-                  <Y>123 px</Y>
+                  <Y>108.479166666667 px</Y>
                 </Location>
                 <Anchors>None</Anchors>
                 <Align>Right</Align>
@@ -421,7 +421,7 @@
               </Port>
               <Port>
                 <Location>
-                  <X>Undefined</X>
+                  <X>0 px</X>
                   <Y>33 px</Y>
                 </Location>
                 <Anchors>Top Bottom</Anchors>
@@ -432,6 +432,16 @@
                 </CustomProperties>
               </Port>
             </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>-406 px</X>
+                <Y>218.479166666667 px</Y>
+              </PointD>
+              <PointD>
+                <X>-406 px</X>
+                <Y>233 px</Y>
+              </PointD>
+            </BendPoints>
             <IsManuallyRouted>false</IsManuallyRouted>
             <DbOid>
               <Path>sportverseny.competitionnumbers.FK_competitionnumbers_users_id</Path>
@@ -448,8 +458,8 @@
             <PortAnchors>
               <Port xsi:type="LinkPort">
                 <Location>
-                  <X>-128 px</X>
-                  <Y>0 px</Y>
+                  <X>-138 px</X>
+                  <Y>-14.5208333333333 px</Y>
                 </Location>
                 <Anchors>None</Anchors>
                 <Align>Right</Align>
@@ -468,10 +478,10 @@
         </Children>
         <ViewPort>
           <ScaleMode>Free</ScaleMode>
-          <Scale>1</Scale>
+          <Scale>0.885</Scale>
           <Location>
-            <X>-845 px</X>
-            <Y>-284 px</Y>
+            <X>-828.248596540104 px</X>
+            <Y>-333.333336925327 px</Y>
           </Location>
         </ViewPort>
       </Model>

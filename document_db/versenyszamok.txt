@@ -1,0 +1,12 @@
+id;versenyszam;sulyozas;tobbajobb;tipus;userId
+1;Lövészet;0.7;1;találat;1
+2;Lövészetidő;0.3;0;sec;2
+3;Akadálypálya;1.5;0;perc:mp3;
+4;Gránátdobás;0.7;1;találat;4
+5;Gránátdobás;0.3;0;perc:mp;5
+6;Fegyverszerelés;1;0;mp;6
+7;Elsősegély;1;1;pontszám;7
+8;Fegyveres váltó;1.5;0;perc:mp;8
+9;Tereptan;1;1;pont;9
+10;Katonai alapismeretek;1.5;1;pont;10
+11;Történelmi ismeretek;1;1;pont;11
