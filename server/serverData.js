@@ -17,7 +17,7 @@ const {
   sendingDelete,
   sendingInfo,
 } = require("./config/sending.js");
-
+//----------------------ALAP ÁLLAPOT----------------------
 //#region Middleware
 //json-al kommunikáljon
 app.use(express.json());
@@ -593,6 +593,127 @@ app.put("/trips/:id", (req, res) => {
   });
 });
 //#endregion trips
+//--------------------------------------------------------
+
+
+
+//----------------------minta-----------------------------
+
+// #region teams
+
+app.get("/teams", (req, res) => {
+  let sql = `SELECT * FROM teams`;
+
+  pool.getConnection(function (error, connection) {
+    if (error) {
+      sendingGetError(res, "Server connecting error!");
+      return;
+    }
+    connection.query(sql, async function (error, results, fields) {
+      if (error) {
+        message = "Teams sql error";
+        sendingGetError(res, message);
+        return;
+      }
+      sendingGet(res, null, results);
+    });
+    connection.release();
+  });
+});
+
+//#endregion teams
+
+//#region teamrace
+app.get("/teamrace", (req, res) => {
+  let sql = `SELECT * FROM teamrace`;
+
+  pool.getConnection(function (error, connection) {
+    if (error) {
+      sendingGetError(res, "Server connecting error!");
+      return;
+    }
+    connection.query(sql, async function (error, results, fields) {
+      if (error) {
+        message = "Teamrace sql error";
+        sendingGetError(res, message);
+        return;
+      }
+      sendingGet(res, null, results);
+    });
+    connection.release();
+  });
+});
+//#endregion teamrace
+
+//#region races
+app.get("/races", (req, res) => {
+  let sql = `SELECT * FROM races`;
+
+  pool.getConnection(function (error, connection) {
+    if (error) {
+      sendingGetError(res, "Server connecting error!");
+      return;
+    }
+    connection.query(sql, async function (error, results, fields) {
+      if (error) {
+        message = "Races sql error";
+        sendingGetError(res, message);
+        return;
+      }
+      sendingGet(res, null, results);
+    });
+    connection.release();
+  });
+});
+//#endregion races
+
+//#region competitionnumbers
+app.get("/competitionnumbers", (req, res) => {
+  let sql = `SELECT * FROM competitionnumbers`;
+
+  pool.getConnection(function (error, connection) {
+    if (error) {
+      sendingGetError(res, "Server connecting error!");
+      return;
+    }
+    connection.query(sql, async function (error, results, fields) {
+      if (error) {
+        message = "Competitionnumbers sql error";
+        sendingGetError(res, message);
+        return;
+      }
+      sendingGet(res, null, results);
+    });
+    connection.release();
+  });
+});
+//#endregion competitionnumbers
+
+//#region users
+app.get("/users", (req, res) => {
+  let sql = `SELECT * FROM users`;
+
+  pool.getConnection(function (error, connection) {
+    if (error) {
+      sendingGetError(res, "Server connecting error!");
+      return;
+    }
+    connection.query(sql, async function (error, results, fields) {
+      if (error) {
+        message = "Users sql error";
+        sendingGetError(res, message);
+        return;
+      }
+      sendingGet(res, null, results);
+    });
+    connection.release();
+  });
+});
+//#endregion users
+//--------------------------------------------------------
+
+
+
 
 function mySanitizeHtml(data) {
   return sanitizeHtml(data, {

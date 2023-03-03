@@ -174,3 +174,21 @@ Content-Type: application/json
     "date": "2022.10.13 01:35:00",
     "carId": 2
 }
+
+
+### ----------------sajat
+### teams
+get http://localhost:3000/teams
+
+### teamrace
+get http://localhost:3000/teamrace
+
+### races
+get http://localhost:3000/races
+
+### competitionnumbers
+get http://localhost:3000/competitionnumbers
+
+### users
+get http://localhost:3000/users
+
