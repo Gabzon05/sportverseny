@@ -47,3 +47,23 @@ SELECT * FROM teamrace;
 SELECT * from races;
 SELECT * FROM competitionnumbers;
 SELECT * FROM users;
+
+#hány sportverseny van?
+select COUNT(*) db from competitionnumbers; 
+
+
+  #hány csapat van?
+
+    select count(*) from teams
+      WHERE RaceId = 1;
+
+INSERT into teamrace
+  (teamId,competitionNumberId,resultNumber)
+  VALUES
+  (1,1,50);
+
+delete from teamrace;
+
+
+
+CALL csvGenerator();

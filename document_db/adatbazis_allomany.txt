@@ -14,10 +14,10 @@ versenyszamok
 id;versenyszam;sulyozas;tipus;userId
 1;Lövészet;0.7;találat;1
 2;Akadálypálya;1.5;perc:mp;2
-3;Gránátdobás;0.7;találat;4
-4;Fegyverszerelés;0;mp;6
-5;Elsősegély;1;pontszám;7
-6;Katonai alapismeretek;1.5;pont;10
+3;Gránátdobás;0.7;találat;3
+4;Fegyverszerelés;1;mp;4
+5;Elsősegély;1;pontszám;5
+6;Katonai alapismeretek;1.5;pont;6
 
 versenyek
 id;versenynev;versenydatumtol;versenydatumig;intezmeny
