@@ -67,3 +67,14 @@ delete from teamrace;
 
 
 CALL csvGenerator();
+
+
+#--------------------DOKKUMENTÁCIÓ--------------------
+
+    #--get http://localhost:3000/teams
+    SELECT * FROM teams;
+
+    #--get http://localhost:3000/teamsrace
+    SELECT * FROM teamrace;
+
+    #--get http://localhost:3000/
