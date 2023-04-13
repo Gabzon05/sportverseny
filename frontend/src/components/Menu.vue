@@ -21,7 +21,7 @@
             <router-link class="nav-link active" aria-current="page" to="/"
             :class="{active: menuState === 2}"
             @click="onClickMenu(2)"
-              >Home</router-link
+              >Kezdőlap</router-link
             >
           </li>
           <li class="nav-item">
