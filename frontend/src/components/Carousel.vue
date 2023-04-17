@@ -2,13 +2,13 @@
   <div id="carouselExample" class="carousel slide position-relative" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://picsum.photos/id/237/1400/300" class="d-block w-100" alt="..." />
+        <img src="https://picsum.photos/id/274/1400/300" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="https://picsum.photos/id/238/1400/300" class="d-block w-100" alt="..." />
+        <img src="https://picsum.photos/id/282/1400/300" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="https://picsum.photos/id/239/1400/300" class="d-block w-100" alt="..." />
+        <img src="https://picsum.photos/id/280/1400/300" class="d-block w-100" alt="..." />
       </div>
     </div>
     <button

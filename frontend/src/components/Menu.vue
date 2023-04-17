@@ -28,7 +28,7 @@
             <router-link class="nav-link" to="/about"
             :class="{active: menuState === 3}"
             @click="onClickMenu(3)"
-            >About</router-link>
+            >Tákékoztató</router-link>
           </li>
           <li class="nav-item dropdown">
             <a
