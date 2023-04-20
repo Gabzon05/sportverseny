@@ -40,19 +40,19 @@
               :class="{active: menuState === 4}"
               @click="onClickMenu(4)"
             >
-              Taxiállomás
+              Verseny
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/taxiFuvarjai"
-                  >Taxi és fuvarjai</router-link
+                  >Verseny infromációk</router-link
                 >
               </li>
               <li><hr class="dropdown-divider" /></li>
               <li>
                 <router-link class="dropdown-item" to="/taxiKezeles"
                   :class="{ disabled: !storeLogin.loginSuccess }"
-                  >Taxik kezelése</router-link
+                  >Sportverseny Táblázat</router-link
                 >
               </li>
               <li>

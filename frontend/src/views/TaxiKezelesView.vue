@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <h1>Taxi kezelés</h1>
+    <h1>Sportverseny Táblázat</h1>
 
     <!--#region táblázat -->
     <table class="table table-bordered table-hover w-auto">

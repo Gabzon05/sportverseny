@@ -1,8 +1,9 @@
 .my-container {
   max-width: 1200px;
-  border: 1px dashed black;
+  
 }
 
 .my-width-100 {
   width: 100px;
 }
+

@@ -1,10 +1,10 @@
 
 <template>
   <div>
-    <h1>Taxi fuvarjai</h1>
-    <div v-for="(car, index) in carsWithTrips" :key="`car${index}`">
+    <h1>Verseny infromációk</h1>
+    <div v-for="(teamsrace, index) in carsWithTrips" :key="`car${index}`">
       <h2>
-        {{ car.name }} ({{ car.licenceNumber }}) {{ car.licenceNumber }} Ft/óra
+        {{ teamsrace.teamId }} ({{ teamsrace.place }}) {{ teamsrace.id }} 
       </h2>
       <ul>
         <li v-for="(trip, index) in car.trips" :key="`trip${index}`">

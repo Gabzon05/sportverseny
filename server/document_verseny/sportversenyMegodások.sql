@@ -5,13 +5,16 @@
 #A feladatok hozzákötése a versenyhez
 update competitionnumbers set racesId = 1;
 
+   
   call csvGenerator();
+  call valami();
   call proba();
 
 select * from races;
 select * from teams;
 select * from teamrace;
-select Count(*) from competitionnumbers WHERE RaceId = 1;
+select * from competitionnumbers;
+SELECT * from users;
 
 # Az gyõz, akinek kevesebb pontja van
 UPDATE competitionnumbers set moreIsBetter = 0;
@@ -116,6 +119,12 @@ update  teamrace
   where id in (select t.id from teamrace t 
   INNER JOIN competitionnumbers c ON c.id = t.competitionNumberId
   where c.moreIsBetter = 0);
+
+
+INSERT INTO teamrace (teamId, competitionNumberId, resultNumber)
+       VALUES (1, 1, RandomInteger(1, 10));
+
+SELECT RandomInteger(1,10);
 
 call EredmenyGen();
       

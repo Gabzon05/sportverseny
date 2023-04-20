@@ -1,0 +1,53 @@
+CREATE DEFINER = 'root'@'localhost'
+PROCEDURE sportverseny.valami()
+BEGIN
+
+DECLARE teamscount INT DEFAULT 0;
+declare competitionCount int default 0;
+DECLARE t INT DEFAULT 0;
+DECLARE c INT DEFAULT 0;
+
+
+
+
+delete from teamrace;
+
+  set teamscount =  ( SELECT
+    COUNT(*) darab
+  FROM teams
+  WHERE RaceId = 1);
+  set competitionCount = ( SELECT
+    COUNT(*) db
+  FROM competitionnumbers
+  WHERE racesId = 1);
+  set t = 1;
+
+  #select @competitionCount;
+
+  teams_loop: LOOP
+  
+
+      set c = 1;
+      competition_loop: LOOP
+
+#ide jön az insert
+
+INSERT INTO teamrace (teamId, competitionNumberId, resultNumber)
+  VALUES (t, c, RandomInteger(1, 10));
+          SET c=c+1;
+         IF c>competitionCount THEN
+          LEAVE competition_loop;
+       END IF;
+    END LOOP competition_loop;
+        SET t=t+1;
+
+   IF t>teamscount THEN
+      LEAVE teams_loop;
+   END IF;
+END LOOP teams_loop;
+
+
+
+
+
+END
