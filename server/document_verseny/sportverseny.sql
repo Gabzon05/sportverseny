@@ -67,7 +67,6 @@ delete from teamrace;
 
 
 CALL csvGenerator();
-call valami();
 
 
 #--------------------DOKKUMENTÁCIÓ--------------------

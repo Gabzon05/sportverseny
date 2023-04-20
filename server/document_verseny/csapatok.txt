@@ -1,0 +1,9 @@
+id;csapatnev;intezmeny
+1;Ewengers;Szolnoki Műszaki Szakképzési Centrum Rózsa Imre Középiskolája és Kollégiuma
+2;MRK fiúk;Mezőtúri Református Kollégium, Gimnázium, Szakközépiskola, Általános Iskola és Óvoda
+3;Kinizsi fiúk;Kinizsi Pál Gimnázium és Szakközépiskola
+4;Csavarkulcs;Szolnoki Műszaki Szakképzési Centrum Jendrassik György Gépipari Szakközépiskolája
+5;Magára bízom;Hajnóczy József Gimnázium, Humán Szakközépiskola és Kollégium
+6;Fahéj;Szolnoki Műszaki Szakképzési Centrum Petőfi Sándor Építészeti és Faipari Szakképző Iskolája
+7;Másnaposok;Szolnoki Műszaki Szakképzési Centrum Baross Gábor Gépipari, Közlekedési Szakképző Iskolája
+8;Konok-kunok;Karcagi Szakképzési Centrum Nagy László Gimnázium

@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/"
         @click="onClickMenu(1)"
-      >Taxi</router-link>
+      >Sportverseny</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -70,21 +70,21 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Counter
+              Számláló
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/count1"
                   :class="{active: menuState === 5}"
                   @click="onClickMenu(5)"
-                  >Counter1</router-link
+                  >Számláló 1</router-link
                 >
               </li>
               <li>
                 <router-link class="dropdown-item" to="/count2"
                   :class="{active: menuState === 6}"
                   @click="onClickMenu(6)"
-                  >Counter2</router-link
+                  >Számláló 2</router-link
                 >
               </li>
             </ul>
@@ -105,7 +105,7 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="button">Search</button>
         </form>
       </div>
     </div>
